@@ -1,4 +1,4 @@
-package org.example;
+package org.game;
 
 class Cell {
     private final char type;

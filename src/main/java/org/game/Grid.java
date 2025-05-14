@@ -1,4 +1,4 @@
-package org.example;
+package org.game;
 
 import java.util.*;
 
@@ -56,7 +56,9 @@ public class Grid {
     public int getSize() { return size; }
 
     public void print() {
+        System.out.println("  0 1 2 3 4 5 6 7");
         for (int y = 0; y < size; y++) {
+            System.out.print(y + " ");
             for (int x = 0; x < size; x++) {
                 System.out.print(getCell(x, y).getType() + " ");
             }

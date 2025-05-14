@@ -1,4 +1,4 @@
-package org.example;
+package org.game;
 
 import java.util.List;
 import java.util.Optional;
